@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\observer\BinaryObserver</OriginalElement>
+  <nodes>
+    <node x="258.0" y="324.0">\observer\Observer</node>
+    <node x="392.0" y="523.0">\observer\HexaObserver</node>
+    <node x="28.0" y="0.0">\observer\Observable</node>
+    <node x="0.0" y="159.0">\observer\NumberChannel</node>
+    <node x="196.0" y="523.0">\observer\BinaryObserver</node>
+    <node x="0.0" y="523.0">\observer\OctalObserver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\observer\OctalObserver" target="\observer\Observer">
+      <point x="0.0" y="-55.5" />
+      <point x="88.0" y="498.0" />
+      <point x="248.0" y="498.0" />
+      <point x="-36.0" y="29.5" />
+    </edge>
+    <edge source="\observer\BinaryObserver" target="\observer\Observer">
+      <point x="0.0" y="-55.5" />
+      <point x="0.0" y="29.5" />
+    </edge>
+    <edge source="\observer\HexaObserver" target="\observer\Observer">
+      <point x="0.0" y="-55.5" />
+      <point x="480.0" y="498.0" />
+      <point x="320.0" y="498.0" />
+      <point x="36.0" y="29.5" />
+    </edge>
+    <edge source="\observer\NumberChannel" target="\observer\Observable">
+      <point x="0.0" y="-105.0" />
+      <point x="0.0" y="54.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="261.5" y="397.5" />
+  <SelectedNodes>
+    <node>\observer\Observer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
